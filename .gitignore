@@ -1,0 +1,35 @@
+# ========== General ==========
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.suo
+
+# ========== Visual Studio (BackEnd) ==========
+# Ignore all bin and obj folders anywhere in the repo
+**/bin/
+**/obj/
+# Ignore specific folders in the BackEnd project
+BackEnd/bin/
+BackEnd/obj/
+BackEnd/.vs/
+BackEnd/.vscode/
+BackEnd/publish/
+BackEnd/*.user
+BackEnd/*.dbmdl
+BackEnd/*.suo
+BackEnd/*.cache
+BackEnd/appsettings.*.json
+BackEnd/*.log
+
+# ========== Node + ReactJS (Frontend) ==========
+fontend/node_modules/
+fontend/build/
+fontend/dist/
+fontend/.env*
+fontend/npm-debug.log*
+fontend/yarn-debug.log*
+fontend/yarn-error.log*
+fontend/.vscode/
