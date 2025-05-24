@@ -1,0 +1,6 @@
+@HistoryMadeSimple_Member_HostAddress = http://localhost:5062
+
+GET {{HistoryMadeSimple_Member_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
