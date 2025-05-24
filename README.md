@@ -4,3 +4,11 @@ các bước dùng git : git pull (ở nhanh develop) tạo nhánh mời từ de
 
 chỉ được commit những file của mình làm ( chú ý tới appsetting.json không được tự ý sửa nếu có sửa cần phải báo lại tránh trường hợp lỗi xẩy ra do cấu hình của từng thành viên khác nhau)
 
+
+các nhanh bao gồm :
+1. masster: Nhánh chính dùng để chứa phiên bản ổn định nhất của dự án
+2. develop: Nhánh phát triển (develop) 
+3. feature: Nhánh tính năng
+4. hotfix/: sửa lỗi trên bản đang chạy (production).
+5. bugfix/: sửa lỗi đang phát triển.
+6. release: Nhánh phát hành
